@@ -1,0 +1,9 @@
+package pr15;
+
+public class EmployeeView {
+    public void printCourseDetails(String name, String salary){
+        System.out.println("Employee Details: ");
+        System.out.println("Name: " + name);
+        System.out.println("Salary: " + salary);
+    }
+}
